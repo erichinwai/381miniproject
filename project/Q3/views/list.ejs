@@ -1,0 +1,12 @@
+<HTML>
+   <BODY>
+   <head>
+     <title>Cafes</title>
+   </head>
+   <ol>
+      <% for (i in c) { %>
+         <li><a href='/cafe?id=<%= c[i].id %>'><%= c[i].name %></a></li>
+      <% } %>
+   </ol>
+   </BODY>
+</HTML>

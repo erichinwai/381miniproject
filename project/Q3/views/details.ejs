@@ -1,0 +1,14 @@
+<HTML>
+<BODY>
+<head>
+  <title><%= c.name %></H1></title>
+</head>
+<H2><%= c.name %></H2>
+<p>Address: <%= c.address %></p>
+<% if (c.seats != null) { %>
+  <p>No. of seats: <%= c.seats %></p>
+<% } else { %>
+  <p>No. of seats: unknown</p>
+<% } %>
+</BODY>
+</HTML>
